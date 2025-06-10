@@ -1,0 +1,18 @@
+# Don't publish TypeScript source files
+src/
+*.ts
+*.tsx
+
+# Build & test stuff
+*.log
+coverage/
+tests/
+demo.ts
+
+# Node modules (npm ignores this by default too)
+node_modules/
+
+# Configs not needed in package
+tsconfig.json
+.gitignore
+.npmignore

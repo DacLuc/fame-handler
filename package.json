@@ -1,0 +1,31 @@
+{
+  "name": "fame-handler",
+  "version": "0.1.0",
+  "description": "Celebrate and handle fame when your GitHub repo gets its first star — and beyond!",
+  "author": "Lucas Ho",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/demo.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DacLuc/fame-handler.git"
+  },
+  "keywords": [
+    "fame",
+    "github",
+    "stars",
+    "celebration"
+  ],
+  "license": "MIT"
+}
